@@ -1,0 +1,18 @@
+.typing{
+    color:#211D1C;
+    font-style: italic;
+}
+.imagen2{
+    display: none;
+}
+@media (max-width: 600px) {
+    .imagen1{
+      display: none;
+    }
+    .imagen2{
+        display: initial;
+    }
+    .typing{
+        font-size: 3em;
+    }
+}
